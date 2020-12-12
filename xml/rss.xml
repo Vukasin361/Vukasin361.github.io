@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+	<rss version="2.0">
+	<channel>
+		<item>
+			<title>Popusti</title>
+			<description>Za prvi termin možete ostvariti 10% popusta, a svaki peti 15% popusta!</description>
+			<link>https://vukasin361.github.io</link>
+		</item>
+		<item>
+			<title>Promena radnog vremena</title>
+			<description>Zbog epidemiološke situacije, radnim danima radimo od 9h do 17h, a vikendima ne radimo.</description>
+			<link>https://vukasin361.github.io/pages/contact.html</link>
+		</item>
+	</channel>
+	</rss>

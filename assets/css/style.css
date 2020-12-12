@@ -88,6 +88,7 @@ footer{
 }
 #info{
 	margin-top:20px;
+	overflow:auto;
 }
  form input[type="text"], input[type="password"]{
 	width:90%;
@@ -118,6 +119,7 @@ form input[type="submit"]:hover, input[type="reset"]:hover{
 	text-align:center center;
 	margin-bottom: 25px;
 	color: #e7e3d4;
+	overflow:auto;
 }
 .service2{
 	width:30%;
@@ -127,6 +129,7 @@ form input[type="submit"]:hover, input[type="reset"]:hover{
 	text-align:center center;
 	margin-bottom: 25px;
 	color: #e7e3d4;
+	overflow:auto;
 }
 .service:hover{
 	transition: transform .25s;
@@ -148,6 +151,7 @@ form input[type="submit"]:hover, input[type="reset"]:hover{
 	margin: 20px 20px;
 	width:45%;
 	margin-top: 50px;
+	overflow:auto;
 }
 #aboutMe p, #reason p{
 	font-size:18px;
@@ -163,6 +167,7 @@ form input[type="submit"]:hover, input[type="reset"]:hover{
 	background-color:rgba(0, 21, 79, 0.4);
 	padding: 15px 15px;
 	margin-bottom: 20px;
+	overflow:auto;
 }
 .lrg{
 	font-size:20px;
