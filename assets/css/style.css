@@ -1,12 +1,16 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	font-family: Arial;
+	font-family: Comfortaa;
 	text-align:center;
 }
 @font-face{
 	font-family: Lobster;
 	src: url(../fonts/Lobster-Regular.ttf)
+}
+@font-face{
+	font-family: Comfortaa;
+	src: url(../fonts/Comfortaa-Regular.ttf)
 }
 h1, h2, h3, h4, h5, h6{
 	font-family:Lobster;
@@ -49,8 +53,11 @@ a{
 	color: #00154f;
 }
 nav ul li a:hover{
-	color: #f4af1b;
-	border-bottom: dotted 2px;
+	color: #5b0e2d;
+	border-bottom: solid 2px;
+}
+.clr:hover{
+	color: #5b0e2d;
 }
 footer{
 
@@ -185,9 +192,33 @@ form input[type="submit"]:hover, input[type="reset"]:hover{
 .container2{
 	width:80%;
 }
-.mrgl{
-	margin-left:9.5%;
+.mrgl3{
+	margin-left:6%;
 }
 .font{
 	font-family:Lobster;
+}
+img{
+	border-radius:25px;
+}
+.mrgr{
+	margin-right:6%;
+}
+.mrgl2{
+	margin-left:5%;
+}
+#aboutUs{
+	text-align:center center;
+	color: #e7e3d4;
+	border-radius: 25px;
+	background-color:rgba(0, 21, 79, 0.4);
+	padding: 15px 15px;
+	margin: 20px 20px;
+	width:80%;
+	margin-top: 50px;
+	overflow:auto;
+	margin: 0px auto;
+}
+.it{
+	font-style:italic;
 }
