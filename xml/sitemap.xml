@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc></loc>
-		<lastmod></lastmod>
-		<changefreq></changefreq>
-		<priority></priority>
+		<loc>https://vukasin361.github.io/</loc>
+		<lastmod>2020-12-12</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.95</priority>
 	</url>
 	<url>
-		<loc></loc>
-		<lastmod></lastmod>
-		<changefreq></changefreq>
-		<priority></priority>
+		<loc>https://vukasin361.github.io/pages/services.html</loc>
+		<lastmod>2020-12-12</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.7</priority>
 	</url>
 	<url>
-		<loc></loc>
-		<lastmod></lastmod>
-		<changefreq></changefreq>
-		<priority></priority>
+		<loc>https://vukasin361.github.io/pages/gallery.html</loc>
+		<lastmod>2020-12-12</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.7</priority>
 	</url>
 	<url>
-		<loc></loc>
-		<lastmod></lastmod>
-		<changefreq></changefreq>
-		<priority></priority>
+		<loc>https://vukasin361.github.io/pages/aboutUs.html</loc>
+		<lastmod>2020-12-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.65</priority>
 	</url>
 	<url>
-		<loc></loc>
-		<lastmod></lastmod>
-		<changefreq></changefreq>
-		<priority></priority>
+		<loc>https://vukasin361.github.io/pages/contact.html</loc>
+		<lastmod>2020-12-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.65</priority>
 	</url>
 	<url>
-		<loc></loc>
-		<lastmod></lastmod>
-		<changefreq></changefreq>
-		<priority></priority>
+		<loc>https://vukasin361.github.io/pages/author.html</loc>
+		<lastmod>2020-12-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.65</priority>
 	</url>
 </urlset>
