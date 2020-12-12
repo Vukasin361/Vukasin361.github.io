@@ -131,7 +131,7 @@ form input[type="submit"]:hover, input[type="reset"]:hover{
 	color: #e7e3d4;
 	overflow:auto;
 }
-.service:hover{
+.service:hover, .image:hover{
 	transition: transform .25s;
 	transform: scale(1.3);
 }
@@ -171,4 +171,19 @@ form input[type="submit"]:hover, input[type="reset"]:hover{
 }
 .lrg{
 	font-size:20px;
+}
+#bckg2{
+	background-color:rgb(18, 82, 110);
+	background-size:cover;
+	width:100%;
+}
+.image{
+	width:25%;
+	margin: 30px 15px;
+}
+.container2{
+	width:80%;
+}
+.mrgl{
+	margin-left:9.5%;
 }
