@@ -105,6 +105,7 @@ form input[type="submit"], input[type="reset"]{
 	width:50px;
 	margin:10px;
 	border-radius: 5px;
+	font-family:Lobster;
 }
 form input[type="submit"]:hover, input[type="reset"]:hover{
 	background-color: #00154f;
@@ -186,4 +187,7 @@ form input[type="submit"]:hover, input[type="reset"]:hover{
 }
 .mrgl{
 	margin-left:9.5%;
+}
+.font{
+	font-family:Lobster;
 }
