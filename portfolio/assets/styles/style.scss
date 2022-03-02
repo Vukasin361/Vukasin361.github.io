@@ -124,6 +124,7 @@ body{
     text-align: center;
     gap:1.5rem;
     .sec{
+        width: 45%;
         @include flex(space-around, center);
         gap: 1.5rem;
     }
@@ -261,15 +262,22 @@ footer{
         }
     }
 }
-@media(max-width:860px){
+@media(max-width:770px){
     #bio{
         justify-content: space-between;
         flex-direction: column;
         gap:1.25rem;
+        .portrait{
+            width: 90%;
+        }
+        .aboutMe{
+            width: 90%;
+        }
     }
     #services{
         flex-direction: column;
         .service{
+            width: 85%;
             h3{
                 font-size: .8rem;
             }
@@ -282,6 +290,7 @@ footer{
         flex-direction: column;
         gap:1rem;
         .projects{
+            width:85%;
             .pdeco{
                 font-size: 1rem;
             }
@@ -320,16 +329,9 @@ footer{
 @media (max-width:700px){
     #skills{
         flex-direction: column;
-        .container{
-            i{
-                font-size: 3rem;
-            }
-            h3{
-                font-size: .8rem;
-            }
-            p{
-                font-size: .7rem;
-            }
+        .sec{
+            width:85%;
+            justify-content: space-around;
         }
     }
     .subtitle{
@@ -344,13 +346,25 @@ footer{
     }
     #cni{
         flex-direction: column;
+        #contactForm{
+            width: 85%;
+        }
         #info{
+            width:85%;
             font-size: 1rem;
             .links{
                 a{
                     font-size: 1.2rem;
                 }
             }
+        }
+    }
+}
+@media (max-width:450px){
+    #skills{
+        .sec{
+            flex-direction: column;
+            gap:1rem;
         }
     }
 }

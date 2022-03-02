@@ -188,6 +188,7 @@ body {
 }
 
 #skills .sec {
+  width: 45%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -410,7 +411,7 @@ footer .footLinks a:hover {
   }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 770px) {
   #bio {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -421,11 +422,20 @@ footer .footLinks a:hover {
             flex-direction: column;
     gap: 1.25rem;
   }
+  #bio .portrait {
+    width: 90%;
+  }
+  #bio .aboutMe {
+    width: 90%;
+  }
   #services {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  #services .service {
+    width: 85%;
   }
   #services .service h3 {
     font-size: .8rem;
@@ -439,6 +449,9 @@ footer .footLinks a:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 1rem;
+  }
+  #projects .projects {
+    width: 85%;
   }
   #projects .projects .pdeco {
     font-size: 1rem;
@@ -494,14 +507,10 @@ footer .footLinks a:hover {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #skills .container i {
-    font-size: 3rem;
-  }
-  #skills .container h3 {
-    font-size: .8rem;
-  }
-  #skills .container p {
-    font-size: .7rem;
+  #skills .sec {
+    width: 85%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .subtitle {
     font-size: 1.5rem;
@@ -515,11 +524,25 @@ footer .footLinks a:hover {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  #cni #contactForm {
+    width: 85%;
+  }
   #cni #info {
+    width: 85%;
     font-size: 1rem;
   }
   #cni #info .links a {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #skills .sec {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
