@@ -120,8 +120,13 @@ body{
     color: white;
 }
 #skills{
-    @include flex(space-around, center);
+    @include flex(center, center);
     text-align: center;
+    gap:1.5rem;
+    .sec{
+        @include flex(space-around, center);
+        gap: 1.5rem;
+    }
     i{
         font-size: 5rem;
     }
@@ -247,5 +252,68 @@ footer{
                 color:#1e5850;
             }
         }
+    }
+}
+@media  (max-width:1040px){
+    #bio{
+        .aboutMe{
+            font-size: 1.2rem;
+        }
+    }
+}
+@media(max-width:860px){
+    #bio{
+        justify-content: space-between;
+        flex-direction: column;
+        gap:1.25rem;
+    }
+    #services{
+        flex-direction: column;
+        .service{
+            h3{
+                font-size: .8rem;
+            }
+            p{
+                font-size: .7rem;
+            }
+        }
+    }
+    #projects{
+        flex-direction: column;
+        gap:1rem;
+        .projects{
+            .pdeco{
+                font-size: 1rem;
+            }
+        }
+    }
+    .subtitle{
+        font-size: 1.75rem;;
+    }
+}
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links ul li {
+        text-align: center;
+    }
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+    .navbar-links.active {
+        display: flex;
     }
 }
