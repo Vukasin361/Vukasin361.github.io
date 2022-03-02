@@ -1,5 +1,5 @@
 <!DOCTYPE hmtl>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
@@ -47,14 +47,15 @@
                 <h2 class="subtitle">About me</h2>
                 <div id="bio">
                   <div class="portrait">
-                    <img src="assets/images/author.jpg" alt="portrait">
+                    <img src="assets/images/author3.jpeg" alt="portrait">
                   </div>
                   <div class="aboutMe">
                     <p>
                       My name is Vukašin Kreculj and I am a web developer. 
-                      Currently I am studying IT sciences at ICT College.
-                      I see myself as quite an innovative and a creative person.In my free time I like to explore new programming languages and upon learning them adding them to my skill set.
-                      I'm looking forward to improving my skills in web development through studies and also work, so feel free to contact me. </p>
+                       Currently I am studying IT sciences at ICT College.
+                       I see myself as quite an innovative and a creative person.In my free time I like to explore new programming languages and upon learning them adding them to my skill set.
+                       I'm looking forward to improving my skills in web development through studies and also work, so feel free to contact me.
+                    </p>
                   </div>
                 </div>
                 <a name="skills"></a>
@@ -100,7 +101,7 @@
                   </div>
                   <div class="container service">
                     <div class="serviceImage">
-                      <img src="assets/images/seo.jpeg" alt="SEO Services">
+                      <img src="assets/images/seo1.jpeg" alt="SEO Services">
                     </div>
                     <h3>SEO OPTIMIZATION</h3>
                     <p>In addition to the fact that the page should look nice, it should also be optimized. This ensures that your page reaches the top of the search.</p>
@@ -130,18 +131,28 @@
                 <h2 class="subtitle">Contact me!</h2>
                 <div id="cni">
                   <div id="contactForm">
-                    <form name="form" action="" method="">
-                      <input type="text" id="yourName "name="yourName" placeholder="Your Name" required>
+                    <form name="form" action="action.php" method=""> 
+                      <input type="text" id="yourName "name="yourName" placeholder="Your Name"required>
                       <input type="email" id="email "name="email" placeholder="example@gmail.com" required>
-                      <textarea id="message" name="message" placeholder="Your message"></textarea>
-                      <input type="submit" id="submit-button" name="submit-button" value="Submit">
+                      <textarea id="message" name="message" placeholder="Your message" rows="10"></textarea>
+                      <div class="buttons">
+                        <input type="submit" id="submit-button" name="submit-button" value="Submit">
+                        <input type="reset" id="reset-button" name="reset-button" value="Reset">
+                      </div>
                     </div>
-                  <div id="info">
-                    <p>vukasin.kreculj.48.20@ict.edu.rs</p>
-                    <p>gdfdg</p>
-                    <p>dfgdd</p>
+                    <div id="info">
+                      <p class="spc">How to get in touch with me:</p>
+                      <p>E-mail: vukasin.kreculj.48.20@ict.edu.rs</p>
+                      <p>Phone: +381 64 1234567</p>
+                      <p>Social networks:</p>
+                      <div class="links">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://github.com"><i class="fa-brands fa-github-square"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                    </div>
                   </div>
-                </div>
                 </div>
                 <button onclick="topFunction()" id="upButton" title="Go to top">
                   <i class="fa-solid fa-arrow-up"></i>
@@ -149,7 +160,11 @@
               </main>
             <footer>
               <p>Vukašin Kreculj 48 / 20</p>
-              <p>sitemap kjdjnddsjdksjnds</p>
+              <div class="footLinks">
+                <a href="xml/sitemap.xml"><i class="fa-solid fa-sitemap"></i></a>
+                <a href="assets/styles/style.scss"><i class="fa-brands fa-sass"></i></a>
+                <a href=""><i class="fa-brands fa-css3-alt"></i></a>
+              </div>
             </footer>
         </div>
     </body>
